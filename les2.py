@@ -114,3 +114,5 @@ if __name__ == "__main__":
     collection = db["gb_blog_parse"]
     parser = GbBlogParse("https://gb.ru/posts", collection, delay=0.1)
     parser.run()
+
+
